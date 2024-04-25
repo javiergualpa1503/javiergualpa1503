@@ -1,0 +1,41 @@
+---
+import CardProyect from "./CardProyect.astro";
+---
+
+<div class="bg-gray-100 py-12">
+  <div class="max-w-4xl mx-auto px-6">
+    <h2 class="text-3xl font-bold text-gray-800 mb-8 text-center">
+      Mis Proyectos
+    </h2>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+      <!-- Proyecto 1 -->
+      <CardProyect
+        title="Calculadora MTB"
+        desc="Este proyecto te permite calcular tu TMB según diferentes fórmulas populares y entender mejor tus necesidades calóricas diarias"
+        tecnologias="HTML , CSS ,React.js, TailwindCss, Vite.jd"
+        img="../../src/img/calculadora.png"
+        deploy="https://javiergualpa1503.github.io/Nutrilife/"
+        repositorio="https://github.com/javiergualpa1503/Nutrilife"
+      />
+
+      <CardProyect
+        title="Información Nutricional de Alimentos"
+        desc="Este proyecto es una aplicación web que permite a los usuarios obtener información nutricional detallada sobre ciertos alimentos."
+        tecnologias="React , Tailwind CSS , React Router, Vite"
+        img="../../src/img/foods.png"
+        deploy="https://javiergualpa1503.github.io/NutriFoods/"
+        repositorio="https://github.com/javiergualpa1503/NutriFoods"
+      />
+
+      <CardProyect
+        title="Información Nutricional de Alimentos"
+        desc="Esta es una pagina web desarrollada para un gimnasio utilizando React, Astro y Tailwind CSS. La aplicación presenta varias secciones clave como servicios, testimonios, nuestro equipo y contacto."
+        tecnologias="React , Tailwind CSS , Astro"
+        img="../../src/img/gym.png"
+        deploy="https://gym-nine-phi.vercel.app/"
+        repositorio="https://github.com/javiergualpa1503/Gym"
+      />
+    </div>
+  </div>
+</div>

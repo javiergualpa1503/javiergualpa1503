@@ -1,0 +1,41 @@
+---
+interface Props {
+  title: string;
+  desc: string;
+  tecnologias: string;
+  img: string;
+  deploy: string;
+  repositorio: string;
+}
+
+const { title, desc, tecnologias, img, deploy, repositorio } = Astro.props;
+---
+
+<!-- Proyecto 1 -->
+<div class="bg-white rounded-lg overflow-hidden shadow-md">
+  <img src={img} alt="Proyecto 1" class="w-full h-64 object-cover" />
+  <div class="p-4">
+    <h3 class="text-xl font-bold text-gray-800 mb-2">{title}</h3>
+    <p class="text-gray-700 mb-4">{desc}.</p>
+    <p class="text-gray-700 mb-4">
+      <strong>Tecnologías utilizadas:</strong>
+      {tecnologias}
+    </p>
+    <div class="flex justify-between">
+      <a
+        target="_blank"
+        href={deploy}
+        class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+      >
+        Deploy
+      </a>
+      <a
+        target="_blank"
+        href={repositorio}
+        class="bg-gray-500 hover:bg-gray-600 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+      >
+        Repositorio
+      </a>
+    </div>
+  </div>
+</div>
