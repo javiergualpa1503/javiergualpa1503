@@ -2,6 +2,7 @@
 import { Image } from "astro:assets";
 import logoGit from "../img/logo-github.svg";
 import logoLinkedin from "../img/logo-linkedin.svg";
+import cv from "../cv/cv.pdf";
 ---
 
 <div class="h-auto md:h-screen bg-gray-100 flex items-center justify-center">
@@ -35,7 +36,7 @@ import logoLinkedin from "../img/logo-linkedin.svg";
       </a>
       <a
         target="_blank"
-        href="../src/cv/cv.pdf"
+        href={cv}
         class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded inline-block"
         >Descargar CV</a
       >
