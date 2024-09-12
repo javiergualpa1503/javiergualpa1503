@@ -4,10 +4,10 @@
 
 ## Acerca de Mí
 
-- 🎓 Actualmente soy estudiante de sistemas en [Nombre de tu Universidad].
+- 🎓 Actualmente soy estudiante en Desarrollo de Software.
 - 💻 Tengo experiencia en desarrollo web utilizando HTML, CSS y JavaScript para crear interfaces de usuario interactivas y atractivas.
 - ⚛️ He trabajado con React.js para desarrollar aplicaciones web modernas y escalables.
-- 🐍 Tengo habilidades en Python y he utilizado este lenguaje para proyectos de desarrollo de software
+
 
 ## Habilidades
 
