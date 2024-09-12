@@ -4,7 +4,7 @@
 
 ## Acerca de Mí
 
-- 🎓 Actualmente soy estudiante en Desarrollo de Software.
+- 🎓 Actualmente soy estudiante en Sistemas.
 - 💻 Tengo experiencia en desarrollo web utilizando HTML, CSS y JavaScript para crear interfaces de usuario interactivas y atractivas.
 - ⚛️ He trabajado con React.js para desarrollar aplicaciones web modernas y escalables.
 
